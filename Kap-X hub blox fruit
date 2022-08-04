@@ -1,0 +1,15 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Kap-X hub", "Synapse")
+--Main
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Auto farm")
+
+Section:NewButton("Chest Farm", "ley you farm chest", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Cesare0328/my-scripts/main/fxss%20bf.lua"))()
+end)
+
+Section:NewButton("Aim bot and ESP", "aim bot and esp", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+end)
+
+
